@@ -1,0 +1,108 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import './footer_css.css';
+@import './menu.css';
+@import './Type.css';
+@import './User.css';
+@import './Room.css';
+@import './Transaction.css';
+@import './Customer.css';
+@import './Payment.css';
+@import './search.css';
+@import './dashboard.css';
+@import './welcome.css';
+
+
+
+
+.head{
+    width: 100%;
+    position: absolute;
+   
+}
+.main{
+    width: 95%;
+    margin-left: 5%;
+    height: auto;
+  margin-top: 0px; /* contenu également en fixed */
+  /* position par rapport au header */
+  bottom: 5px; /* position par rapport au footer */
+  overflow: auto; /* barre de scroll si nécessaire */
+ 
+ position: absolute;
+ top:70px;
+    
+    
+}
+
+ 
+
+
+
+.header_view{
+    width: 50px;
+   
+    margin-right: 5px;
+}
+.acv{
+   float: right;
+   margin-right: 5px;
+    font-weight: bolder;
+    font-style: Serif;
+   
+  
+  
+}
+
+.btn{
+    margin: 5px;
+}
+
+/*Pour le OverFlow
+{
+background-color: coral;
+width: 200px;
+height: 65px;
+border: 1px solid black;
+white-space:nowrap;
+overflow: hidden;
+text-overflow:ellipsis;
+}
+*/ 
+
+.ftr{
+    height: 9%;
+    width: 100%; 
+    background-color: #ecf0f1;
+   
+  }
+  .ftr h3{
+   
+    padding: 5px;
+  }
+  .pag{
+    margin-left: 30%;
+    width: 20%;
+  
+    }
+   
+
+
+
+    /* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+ 
+}
+.tet{
+  background-image: url("/img/logo/loginPic.jpg");
+  background-repeat:no-repeat;
+background-size: 100%;
+}

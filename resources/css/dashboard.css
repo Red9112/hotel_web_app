@@ -1,0 +1,55 @@
+
+ 
+.welcome {
+	background-color:#273c75 ;
+    width: fit-content; 
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    
+    
+}
+
+.welcome .content h1 {
+color: #bdc3c7;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+#c1{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.dashTable{
+    margin: 3px;
+   
+    width: 50%;
+    display: inline-block;
+
+}
+.dash{
+    display: inline-flex;
+ margin-left: 20px;
+}
+#r1{
+width: 500px;
+top: 0;
+margin-bottom: 10px;
+text-align: center;
+
+}
+#r1 h3{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:  #192a56}
+    #r1 p{
+        font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+
+color: #dcdde1;}
+#roomLink{
+    color: aliceblue;
+    text-decoration: none;
+}
